@@ -70,7 +70,6 @@
     <script src="assets/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/c14bc1c0-1a70-4f06-ab7d-7dc2f0cc3a08-loader.js"></script>
     <script src="scripts/form-handler.js"></script>
     <script src="scripts/one-trust.js"></script>
 
