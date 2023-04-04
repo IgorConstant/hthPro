@@ -1,0 +1,151 @@
+@font-face {
+    font-family: AmsiProCond-Regular;
+    src: url("../../fonts/AmsiProCond-Regular.otf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: AmsiProCond-Bold;
+    src: url("../../fonts/AmsiProCond-Bold.otf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: AmsiProCond-Ultra;
+    src: url("../../fonts/AmsiProCond-Ultra.otf");
+    font-display: swap;
+}
+
+
+#intro {
+    background: url(../../assets/images/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    max-height: 550px;
+    margin-top: -50px;
+
+    .content {
+
+        @media(max-width: 960px) {
+            margin-top: 120px;
+
+            .uk-card-body {
+                border-radius: 3px;
+
+                .uk-card-title {
+                    font-family: AmsiProCond-Ultra;
+                    color: #1142a6;
+                }
+            }
+        }
+
+        @media(min-width: 1024px) {
+            display: none;
+        }
+    }
+}
+
+
+#ctaBlock {
+    background: #f7f7f7;
+    padding: 0 0 50px 0;
+
+    .titleBlock {
+        h1 {
+            color: #1142a6;
+            font-family: AmsiProCond-Ultra;
+        }
+
+        p {
+            font-family: AmsiProCond-Regular;
+            color: #878787;
+            font-size: 20px;
+        }
+    }
+
+    .brand {
+        margin: -60px 0 40px 0;
+    }
+
+    .btnBlock {
+
+        .uk-button-default {
+            background: #5bc5f2;
+            color: #fff;
+            font-family: AmsiProCond-Bold;
+            border-radius: 3px;
+            padding: 2px 50px 8px 50px;
+            font-size: 25px;
+            border: none;
+
+            transition: all 0.3s ease 0s;
+            margin-top: 10px;
+
+            &:hover {
+                box-shadow: 0px 15px 20px rgba(18, 53, 31, 0.4);
+                transform: translateY(-7px);
+            }
+        }
+    }
+}
+
+#about {
+    padding: 60px 0;
+
+    h1 {
+        color: #1142a6;
+        font-family: AmsiProCond-Ultra;
+    }
+
+    p {
+        font-family: AmsiProCond-Regular;
+        font-size: 20px;
+        color: #878787;
+
+        @media(min-width: 1200px) {
+            padding: 0 20%;
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding: 0px;
+
+        >li {
+            display: inline-block;
+            margin: 0 15px;
+
+            @media(max-width: 960px) {
+                margin: 15px 0;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+
+footer {
+    background: #1142a6;
+    padding: 15px 0;
+
+    p {
+        font-size: 14px;
+        color: #fff;
+        font-family: AmsiProCond-Regular;
+    }
+}
+
+.honeypot-field {
+    display: none;
+}
+
+.thankyou_message {
+    h4 {
+        text-align: center;
+        margin: 15px 0;
+        color: #fff;
+        font-family: AmsiProCond-Regular;
+    }
+}

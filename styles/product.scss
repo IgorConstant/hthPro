@@ -1,0 +1,159 @@
+#product {
+    padding: 40px 0 150px 0;
+
+    .titleBlock {
+
+        h1 {
+            color: #1142a6;
+            font-family: AmsiProCond-Bold;
+
+            span {
+                font-family: AmsiProCond-Ultra;
+            }
+        }
+
+        >img {
+
+            padding: 40px 10px;
+
+            @media(min-width: 1200px) {
+                margin: 50px;
+            }
+        }
+    }
+
+    .iconBlock {
+        >img {
+            margin: 15px;
+        }
+
+        p {
+            font-family: AmsiProCond-Regular;
+            font-size: 20px;
+        }
+    }
+
+    .contentBlock {
+
+        margin: 50px 0;
+
+        p {
+            text-transform: uppercase;
+            font-family: AmsiProCond-Regular;
+            margin: 40px 0;
+        }
+
+        .uk-button-default {
+            background: #5bc5f2;
+            color: #fff;
+            font-family: AmsiProCond-Bold;
+            border-radius: 3px;
+            padding: 7px 50px 15px 50px;
+            font-size: 25px;
+            border: none;
+
+            transition: all 0.3s ease 0s;
+            margin-top: 10px;
+
+            &:hover {
+                box-shadow: 0px 15px 20px rgba(18, 53, 31, 0.4);
+                transform: translateY(-7px);
+            }
+        }
+    }
+
+
+    .graphicBlock {
+        h1 {
+            color: #1142a6;
+            font-family: AmsiProCond-Bold;
+
+            span {
+                font-family: AmsiProCond-Ultra;
+            }
+        }
+
+        p {
+            font-family: AmsiProCond-Regular;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        >img {
+            margin: 40px 0;
+        }
+
+
+        .itens {
+
+
+            .blockBlue {
+
+                display: grid;
+                justify-content: center;
+
+                p {
+                    color: #1142a6;
+                    text-transform: capitalize;
+                    font-family: AmsiProCond-Ultra;
+                    font-size: 25px;
+
+                }
+
+                .productDesc {
+                    font-family: AmsiProCond-Regular;
+                    font-size: 20px;
+                    color: #878787;
+                    text-transform: initial;
+                }
+
+            }
+
+            .blockRed {
+
+                display: grid;
+                justify-content: center;
+
+                p {
+                    color: #f2242f;
+                    text-transform: capitalize;
+                    font-family: AmsiProCond-Ultra;
+                    font-size: 25px;
+                }
+
+                .productDesc {
+                    font-family: AmsiProCond-Regular;
+                    font-size: 20px;
+                    color: #878787;
+                    text-transform: initial;
+                }
+
+            }
+
+            .blockGray {
+
+                display: grid;
+                justify-content: center;
+
+                p {
+                    color: #878787;
+                    text-transform: capitalize;
+                    font-family: AmsiProCond-Ultra;
+                    font-size: 25px;
+                }
+
+                .productDesc {
+                    font-family: AmsiProCond-Regular;
+                    font-size: 20px;
+                    color: #878787;
+                    text-transform: initial;
+                }
+            }
+        }
+    }
+
+    .disclaimer {
+        font-family: AmsiProCond-Regular;
+        text-transform: uppercase;
+    }
+}
